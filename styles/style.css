@@ -16,9 +16,10 @@ body{
     .habits,
     .run-container,
     .trainer-image-container,
+    .our-classes,
     .banner-container{
     width: 90%;
-
+    border: 1px solid red;
     margin: 80px auto;
 }
 .cmn-color{
@@ -305,6 +306,27 @@ select{
     border: none;
     margin-top: 20px;
 }
+/* Our classes section  */
+.our-classes-title{
+    text-align: center;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.our-gym-classes-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.our-gym-class-title{
+    color: white;
+}
+.uniqe-btn{
+    padding: 13px 40px;
+    border: none;
+    color: white;
+}
+
 /* Meet our team section  */
 .meet-title{
     color: white;
