@@ -19,7 +19,7 @@ body{
     .our-classes,
     .banner-container{
     width: 90%;
-    border: 1px solid red;
+
     margin: 80px auto;
 }
 .cmn-color{
@@ -307,6 +307,11 @@ select{
     margin-top: 20px;
 }
 /* Our classes section  */
+.our-classes{
+    background-color: rgb(34, 34, 34);
+    padding: 50px;
+    border-radius: 18px;
+}
 .our-classes-title{
     text-align: center;
     color: white;
@@ -322,11 +327,68 @@ select{
     color: white;
 }
 .uniqe-btn{
-    padding: 13px 40px;
+    padding: 13px 50px;
     border: none;
     color: white;
 }
+.uniqe-container{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    
+}
+.uniqe-box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 20px;
+}
 
+.uinqe-box-btn{
+    font-size: 1.2rem;
+    color: white;
+    padding: 30px 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    opacity: .7;
+    border-radius: 5px;
+}
+.uniqe-active{
+    background-color: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    color: white;
+    opacity: 1;
+}
+.uniqe-image{
+    width: 45%;
+    
+}
+.uniqe-image-figure{
+    width: 450px;
+}
+.uniqe-image-figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+.uniqe-image-info-title{
+    color: rgb(230, 83, 60);
+    padding: 10px 0px;
+}
+.uniqe-image-info-des{
+    color: white;
+    opacity: .7;
+    padding: 10px 0px;
+}
+.uniqe-image-btn{
+    background-color: rgb(230, 83, 60);
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
 /* Meet our team section  */
 .meet-title{
     color: white;
@@ -442,6 +504,8 @@ hr{
     }
     .banner-container, .habits-image-container,
     .bmi-calculator-calculate-container,
+    .uniqe-container,
+    .our-gym-classes-container,
     .run-container{
         flex-direction: column;
     }
@@ -464,6 +528,9 @@ hr{
     .bmi-chart,
     .bmi-calculate,
     .footer-fitness-des,
+    .uniqe-box,
+    .uniqe-image,
+    .uniqe-image-figure,
     .bmi-calculate-des,
     .run-des{
         width: 100%;
@@ -493,5 +560,20 @@ hr{
     }
     table,th,tr,td{
         padding: 15px 30px;
+    }
+    .uniqe-box{
+        padding-left: 1px;
+    }
+    .uniqe-btn{
+        width: 100%;
+        padding: 13px 10px;
+    }
+    .uniqe-image-figure{
+        margin-top: 10px;
+    }
+    .our-gym-class-title{
+        width: 200px;
+        text-align: center;
+        margin-bottom: 10px;
     }
 }
